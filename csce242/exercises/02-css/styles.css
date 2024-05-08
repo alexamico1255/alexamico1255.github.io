@@ -1,26 +1,76 @@
 /* Structure */
+
+:root {
+    --primary-color: #274001;
+    --secondary-color: #5EB5BF;
+    --background-color: #9EBF26;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: skyblue;
+    background: url('images/grass.jpg');
+    background-size: 100%;
 }
 
-div {
-    background: green;
+#content {
+    background: var(--background-color);
     width:70%;
     margin:auto; /*centering*/
+    border-radius: 5px;    /*round corners - you can round all corners or each corner individually */
+    padding: 5px;
+    box-shadow: 10px 10px black;
 }
 
+#main-header, #main-footer {
+        background: var(--secondary-color);
+        padding: 10px;
+}
+
+/*Navigation*/
+#main-nav ul{
+    padding-left:0;
+}
+#main-nav li {
+    list-style-type: none;
+    display: inline-block; /*made links horizontal*/
+    background-color: black;
+    padding: 5px;
+    border-radius: 2px;
+
+    
+}
+#main-nav a {
+    color: red;
+    text-decoration: none;
+}
+#main-nav a:hover {
+    color: blue;
+    
+}
+
+/*Tables*/
+#about-table {
+    border-collapse: collapse;
+}
+
+#about-table th, #about-table td{
+        border: 1px solid brown;
+        padding: 5px;
+}
+#about-table th { 
+    background-color:yellow,
+}
 /* Typography */
 h1 {
-    color:red;
+    color:#222601;
 }
 
 h2 {
-    color:yellow;
+    color:black;
 }
 
 strong{
-    background: yellow;
+    background: #C2D971;
     text-decoration: underline;
 }
 
