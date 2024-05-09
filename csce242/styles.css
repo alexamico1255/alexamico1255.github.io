@@ -1,0 +1,43 @@
+:root{
+    --primary-color: black;
+    --secondary-color: #9EBF26;
+    --background-color: #5EB5BF;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('nate-fail.gif');
+    background-size: 100%;
+}
+
+#content {
+    background: rgba(187, 235, 110, 0.8);
+    width:75%;
+    margin:auto;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: -10px -10px 10px 10px var(--primary-color);
+}
+
+/*Navigation*/
+
+#main-nav ol {
+    padding-left: 0;
+}
+
+#main-nav li {
+    list-style-type: none;
+    display:block;
+    padding:7px;
+    border-radius:3px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+#main-nav a:hover {
+    color:gold; 
+}

@@ -1,3 +1,5 @@
-h1 {
-    color:blueviolet;
+:root{
+    --primary-color: black;
+    --secondary-color: #9EBF26;
+    --background-color: #5EB5BF;
 }

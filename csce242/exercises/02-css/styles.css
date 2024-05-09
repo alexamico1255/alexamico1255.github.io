@@ -1,6 +1,7 @@
 /* Structure */
 
 :root {
+    /*This allows you to change color scheme throughout website VERY easily*/
     --primary-color: #274001;
     --secondary-color: #5EB5BF;
     --background-color: #9EBF26;

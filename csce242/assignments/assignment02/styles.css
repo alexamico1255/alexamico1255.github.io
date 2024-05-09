@@ -1,0 +1,77 @@
+:root{
+    --primary-color: black;
+    --secondary-color: #9EBF26;
+    --background-color: #5EB5BF;
+    --hover-color: indigo;
+    --table-color: tan;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/grass.jpg');
+    background-size: 100%;
+}
+
+#content {
+    background: rgba(187, 235, 110, 0.8);
+    width:75%;
+    margin:auto;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: -10px -10px 10px 10px var(--primary-color);
+}
+
+#main-header , #main-footer {
+    background: var(--background-color);
+    padding: 10px;
+}
+
+/*Navigation*/
+
+#main-nav ul {
+    padding-left:0;
+}
+
+#main-nav li {
+    list-style-type: none;
+    display:inline-block;
+    background:var(--secondary-color);
+    padding:7px;
+    border-radius:3px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+#main-nav a:hover {
+    color:var(--hover-color);
+}
+
+/* Tables */
+#puppies {
+    border-collapse: collapse;
+}
+
+#puppies th, #puppies td{
+    border:1px solid var(--primary-color);
+    padding:5px;
+}
+
+#puppies th {
+    background-color:var(--background-color);
+    color:var(--primary-color);
+}
+
+#puppies td {
+    background-color:var(--table-color);
+    color:var(--primary-color);
+}
+
+/* Images */
+img {
+    border:3px solid var(--primary-color);
+    
+}
