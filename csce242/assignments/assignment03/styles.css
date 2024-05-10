@@ -1,0 +1,161 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DFEBF6;
+}
+
+#main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Sidebar*/
+#main-sidebar {
+    background-color: #4095D1;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 0 0 20%;
+}
+#main-sidebar ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    flex: 1;
+}
+
+#main-sidebar li {
+    padding: 5px;
+    color: var(--header-bg);
+}
+
+#main-sidebar li:hover {
+    background: red;
+}
+
+#main-sidebar a {
+    text-decoration: none;
+    color: var(--header-bg);
+    display: block;
+}
+
+#stuff {
+    flex: 1 1 calc(66.66% - 20px); /* Adjust width for three items in a row */
+    margin: 5px;
+}
+
+#stuff .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#stuff section {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#stuff section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Big Ideas!*/
+#big-ideas {
+    width: calc(100% - 30px);
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.big-ideas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-idea {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.big-idea img {
+    max-width: 100px; /* Adjust width of image as needed */
+    margin-right: 20px; /* Add space between image and text */
+}
+
+.big-idea div {
+    flex-grow: 1; /* Allow text to take remaining space */
+}
+
+.big-idea h4 {
+    margin-top: 0; /* Remove default margin */
+}
+
+.big-idea p {
+    margin-bottom: 0; /* Remove default margin */
+}
+
+
+#main-footer {
+    text-align: center;
+    background-color: #29353C;
+    color: white;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+}
+
+#main-nav ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+    background-color: #0047AB;
+}
+
+#main-header a:hover {
+    color: red;
+}
+
+/* Larger Resolution */
+@media only screen and (min-width: 768px) {
+
+    #main-nav ul, .flex-container, .main-content{
+        display: flex;
+    }
+
+    #main-nav li, .column1of2, .column1of3{
+        flex:1;
+    }
+
+    .sidebar {
+        width: 20%;
+    }
+
+    #main-nav ul {
+        text-align: center;
+    }
+  /*  body {
+        flex-direction: column;
+    }
+
+*/
+}
