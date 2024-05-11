@@ -41,7 +41,7 @@ body {
 }
 
 #stuff {
-    flex: 1 1 calc(66.66% - 20px); /* Adjust width for three items in a row */
+    flex: 1 1 calc(66.66% - 20px);
     margin: 5px;
 }
 
@@ -87,20 +87,20 @@ body {
 }
 
 .big-idea img {
-    max-width: 100px; /* Adjust width of image as needed */
-    margin-right: 20px; /* Add space between image and text */
+    max-width: 100px;
+    margin-right: 20px;
 }
 
 .big-idea div {
-    flex-grow: 1; /* Allow text to take remaining space */
+    flex-grow: 1;
 }
 
 .big-idea h4 {
-    margin-top: 0; /* Remove default margin */
+    margin-top: 0;
 }
 
 .big-idea p {
-    margin-bottom: 0; /* Remove default margin */
+    margin-bottom: 0;
 }
 
 
