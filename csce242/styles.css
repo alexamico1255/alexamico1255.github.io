@@ -56,6 +56,42 @@ body {
     height: auto;
 }
 
+/* Projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.project-box, .project-box a {
+    background-color:rgba(223, 235, 246, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    text-align: center;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    transition: 0.3;
+}
+
+.project-box a:hover, .project-box:hover {
+    color: green;
+    text-decoration: none;
+    border: 3px solid green;
+}
+
+.project-box img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
 /* Media Query for smaller screens */
 @media (max-width: 768px) {
     .assignments {
