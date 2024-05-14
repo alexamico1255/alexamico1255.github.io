@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Assignment 7</h1>
+    <h2 style="color: green;">Introduction to JavaScript</h2>
+    <div class="container">
+        <div class="column" id="countColumn" onclick="incrementCount()">
+            <h2>Count:</h2>
+            <h3 id="count">0</h3>
+        </div>
+        <div class="column" id="imageColumn">
+            <h2>Random Image:</h2>
+            <img src="https://picsum.photos/200" alt="Random Image" onclick="refreshPage()">
+        </div>
+        <div class="column" id="sliderColumn">
+            <h2>Slider Move:</h2>
+            <input type="range" id="slider" min="0" max="100" value="0" oninput="moveSquare()">
+            <div id="square"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p style="color: green;"><strong>&copy Alex Amico</strong></p>
+    </footer>
+</body>
+</html>
