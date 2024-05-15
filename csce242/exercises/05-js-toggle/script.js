@@ -52,7 +52,8 @@ document.getElementById("txt-color").onkeyup = e => {
 
     }
     else {
-        messageP.innerHTML = "I don't know what you are! Try following directions!"
+        messageP.innerHTML = "I don't know what you are!"
+        messageP.style.color = "black";
 
     }
 
