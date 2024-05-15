@@ -77,6 +77,10 @@ h3 {
 }
 
 /*Exercise 2*/
+#exercise2 {
+    text-align: center;
+}
+
 #pictureContainer img {
     max-width: 100%;
 }
