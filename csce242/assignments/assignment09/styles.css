@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: navy;
+    color: white;
+  }
+  
+  #container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  #black-area {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .input-container {
+    background: grey;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+   /*Star(s)*/
+  #num-stars {
+    margin-right: 10px;
+  }
+  
+  #error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+  .star {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    border-right: 2px solid transparent;
+    border-bottom: 4px solid #FC0;
+    border-left: 2px solid transparent;
+    font-size: 16px;
+  }
+  
+  .star:before,
+  .star:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 4px;
+    left: -8px;
+    border-right: 8px solid transparent;
+    border-bottom: 4px solid #FC0;
+    border-left: 8px solid transparent;
+    transform: rotate(-35deg);
+  }
+  
+  .star:after {
+    transform: rotate(35deg);
+  }
+
+  /*Footer*/
+  #main-footer {
+    text-align: center;
+    
+  }
