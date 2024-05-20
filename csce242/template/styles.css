@@ -1,5 +1,7 @@
-:root{
+/* CSS Variables */
+:root {
     --primary-color: #0047AB;
     --secondary-color: #4095D1;
     --background-color: #DFEBF6;
+    --tetiary-color: black;
 }
