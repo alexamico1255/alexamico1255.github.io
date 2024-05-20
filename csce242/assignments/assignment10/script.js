@@ -1,34 +1,34 @@
 // Associative array containing image paths and descriptions
 const images = [
     {
-        src: "images/longboarding.png",
-        title: "Longboarding",
-        description: "longboarding through the neighborhood."
+        src: "images/birthday.jpg",
+        title: "Birthday",
+        description: "It's little Timmy's Birthday."
     },
     {
-        src: "images/paintballing.png",
-        title: "Paintballing",
-        description: "Winning an awesome paintball match."
+        src: "images/clown.jpg",
+        title: "Clown",
+        description: "There is a clown show at the birthday party."
     },
     {
-        src: "images/scubadiving.png",
-        title: "Scuba Diving",
-        description: "Exploring underwater by scuba diving."
+        src: "images/rain.jpg",
+        title: "Rain",
+        description: "it starts to rain at the birthday party."
     },
     {
-        src: "images/biking.png",
-        title: "Biking",
-        description: "Riding a bike through the mountains."
+        src: "images/read.jpg",
+        title: "Read",
+        description: "Mom starts reading a book to the guests."
     },
     {
-        src: "images/skiing.png",
-        title: "Skiing",
-        description: "Skiing down the snowy slopes."
+        src: "images/shovel.jpg",
+        title: "Shovel",
+        description: "The rain turns to snow, we must clear the driveway."
     },
     {
-        src: "images/fourwheeling.png",
-        title: "Four Wheeling",
-        description: "Riding my property on a four-wheeler."
+        src: "images/work.jpg",
+        title: "Work",
+        description: "Timmy watches some fun videos online after his friends leave."
     }
 ];
 
