@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cocktails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.cocktail-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cocktail-card:hover {
+  transform: translateY(-5px);
+}
+
+.cocktail-image {
+  width: 100%;
+  height: auto;
+}
+
+.cocktail-content {
+  padding: 20px;
+}
+
+.cocktail-title {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+.cocktail-instructions {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
