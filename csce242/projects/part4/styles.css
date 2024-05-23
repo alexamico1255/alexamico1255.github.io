@@ -327,12 +327,74 @@ td {
     border-radius: 5px;
 }
 
+/* Adjustments for screens <= 600px */
 @media only screen and (max-width: 600px) {
-    .desktop-nav {
+    /* Hide desktop navigation */
+    nav.desktop-nav {
         display: none;
     }
 
+    /* Show hamburger menu */
     .hamburger-menu {
         display: block;
     }
+
+    /* Adjustments for header */
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    header img.logo {
+        height: 80px; /* Adjust the height as needed */
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        margin-top: 10px;
+    }
+
+    /* Adjustments for left navigation */
+    .left-nav {
+        width: 100%;
+        height: auto;
+        position: static;
+        margin-top: 10px;
+    }
+
+    /* Adjustments for main content */
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    /* Adjustments for team boxes */
+    .team {
+        padding: 10px;
+    }
+
+    /* Adjustments for player images */
+    .player-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Adjustments for table on Players page */
+    th,
+    td {
+        padding: 10px;
+    }
+
+    .players-page th,
+    .players-page td {
+        padding: 10px;
+    }
+
+    /* Adjustments for player bio page */
+    .player-bio {
+        padding: 10px;
+    }
 }
+
