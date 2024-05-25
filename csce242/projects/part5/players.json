@@ -107,7 +107,7 @@
     {
         "_id": 8,
         "img_name": "images/sam_hauser",
-        "name": "Sam_Hauser",
+        "name": "Sam Hauser",
         "ppg": 9.0,
         "rebounds": 3.5,
         "assists": 1.0,
@@ -118,5 +118,7 @@
         "draft_pick": "Undrafted",
         "drafted_by": "NA",
         "stats": ["PPG: 9.0", "Rebounds: 3.5", "Assists: 1.0"]
+
+        
     }
 ]
