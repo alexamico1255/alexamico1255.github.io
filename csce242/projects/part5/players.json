@@ -76,7 +76,7 @@
     },
     {
         "_id": 6,
-        "img_name": "images/al_horford",
+        "img_name": "images/al_horford.jpg",
         "name": "Al Horford",
         "ppg": 18.6,
         "rebounds": 6.4,
@@ -91,7 +91,7 @@
     },
     {
         "_id": 7,
-        "img_name": "images/peyton_pritchard",
+        "img_name": "images/peyton_pritchard.jpg",
         "name": "Peyton Pritchard",
         "ppg": 9.6,
         "rebounds": 3.2,
@@ -106,7 +106,7 @@
     },
     {
         "_id": 8,
-        "img_name": "images/sam_hauser",
+        "img_name": "images/sam_hauser.jpg",
         "name": "Sam Hauser",
         "ppg": 9.0,
         "rebounds": 3.5,
