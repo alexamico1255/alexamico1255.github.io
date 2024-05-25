@@ -1,7 +1,7 @@
 [
     {
         "_id": 1,
-        "img_name": "jrue_holiday.jpg",
+        "img_name": "images/jrue_holiday.jpg",
         "name": "Jrue Holiday",
         "ppg": 12.5,
         "rebounds": 5.4,
@@ -16,7 +16,7 @@
     },
     {
         "_id": 2,
-        "img_name": "derrick_white.jpg",
+        "img_name": "images/derrick_white.jpg",
         "name": "Derrick White",
         "ppg": 15.2,
         "rebounds": 4.2,
@@ -31,7 +31,7 @@
     },
     {
         "_id": 3,
-        "img_name": "jaylen_brown.jpg",
+        "img_name": "images/jaylen_brown.jpg",
         "name": "Jaylen Brown",
         "ppg": 23,
         "rebounds": 5.5,
@@ -46,7 +46,7 @@
     },
     {
         "_id": 4,
-        "img_name": "jayson_tatum.jpg",
+        "img_name": "images/jayson_tatum.jpg",
         "name": "Jayson Tatum",
         "ppg": 26.9,
         "rebounds": 8.1,
@@ -61,7 +61,7 @@
     },
     {
         "_id": 5,
-        "img_name": "kristaps_porzingis.jpg",
+        "img_name": "images/kristaps_porzingis.jpg",
         "name": "Kristaps Porzingis",
         "ppg": 20.1,
         "rebounds": 7.2,
