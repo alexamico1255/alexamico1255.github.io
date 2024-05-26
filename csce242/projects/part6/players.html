@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players - Celtics Central</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="players-page">
+
+    <!-- Header Section -->
+    <header>
+        <img src="images/logo.png" alt="Celtics Central Logo" class="logo">
+        <h1>Celtics Central</h1>
+        <nav class="desktop-nav">
+            <a href="index.html">Home</a>
+            <a href="#" class="active">Players</a>
+            <a href="games.html">Next Game</a>
+        </nav>
+        <div class="hamburger-menu" id="hamburger-menu">
+            &#9776;
+        </div>
+        <nav class="mobile-nav" id="mobile-nav">
+            <a href="index.html">Home</a>
+            <a href="#" class="active">Players</a>
+            <a href="games.html">Next Game</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="players-container">
+        <h2>2023-2024 Roster:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Player</th>
+                    <th>PPG</th>
+                    <th>Rebounds</th>
+                    <th>Assists</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                    <th>Age</th>
+                    <th>College</th>
+                    <th>Draft Pick</th>
+                    <th>Drafted By</th>                    
+                </tr>
+            </thead>
+            <tbody id="players-list">
+                <!-- Player rows will be generated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Data Entry Form -->
+    <div class="container">
+        <h1>Add a Player</h1>
+        <form id="data-entry-form">
+            <div class="form-group">
+                <label for="itemName">Player Name:</label>
+                <input type="text" id="itemName" name="itemName" required>
+            </div>
+            <div class="form-group">
+                <label for="itemDescription">PPG:</label>
+                <input type="number" id="itemDescription" name="itemDescription" required>
+            </div>
+            
+            <button type="submit">Add Player</button>
+        </form>
+        <div id="success-message" class="hidden">Player added successfully!</div>
+        <h2>Player List</h2>
+        <ul id="items-list"></ul>
+    </div>
+
+       <!-- Footer Section -->
+       <footer>
+        <form id="contact-form">
+            <h3>Contact Us</h3>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+        <div id="result"></div>
+        &copy; Alex Amico
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="add_item.js"></script>
+
+</body>
+</html>

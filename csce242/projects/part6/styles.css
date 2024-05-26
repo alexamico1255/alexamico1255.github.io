@@ -328,6 +328,122 @@ td {
     border-radius: 5px;
 }
 
+/* Contact Form Styles */
+footer {
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    position: relative;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer form div {
+    margin-bottom: 15px;
+    width: 25%;
+}
+
+footer form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer form button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer form button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+footer #form-status {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.success-message {
+    color: var(--tertiary-color);
+}
+
+.error-message {
+    color: red;
+}
+
+.please-wait {
+    color: orange;
+}
+
+/* Success message styles */
+#success-message {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    display: none; /* Initially hidden */
+}
+
+/* Form input styles */
+form input[type="text"],
+form textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 10%;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+/*Hidden Items*/
+.hidden {
+    display: none;
+}
+
+
 /* Adjustments for screens <= 600px */
 @media only screen and (max-width: 600px) {
     /* Hide desktop navigation */
@@ -401,5 +517,10 @@ td {
     /*Adjustments for 23-24 record*/
     .teams-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Footer */
+    footer form {
+        width: 90%;
     }
 }
