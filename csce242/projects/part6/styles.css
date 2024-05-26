@@ -439,8 +439,9 @@ form button:hover {
 
 
 /*Hidden Items*/
-.hidden {
+#success-message {
     display: none;
+    color: var(--tertiary-color);
 }
 
 

@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("DOMContentLoaded event triggered"); // Check if the event listener is triggered
+    
     const form = document.getElementById("data-entry-form");
     const successMessage = document.getElementById("success-message");
     const itemList = document.getElementById("items-list");
 
     form.addEventListener("submit", function (event) {
+        console.log("Form submitted"); // Check if the form submission event is triggered
         event.preventDefault(); // Prevent default form submission
 
         // Get form data
@@ -24,9 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
         itemList.appendChild(newItem);
 
         // Show success message
-        successMessage.classList.remove("hidden");
+        console.log("Showing success message"); // Check if this log is triggered
+        successMessage.style.display = "block"; // Try setting display directly
         setTimeout(function () {
-            successMessage.classList.add("hidden");
+            successMessage.style.display = "none"; // Hide the message after 2 seconds
+            console.log("Hiding success message"); // Check if this log is triggered
         }, 2000);
 
         // Reset form fields
