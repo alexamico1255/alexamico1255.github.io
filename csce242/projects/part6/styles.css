@@ -520,6 +520,20 @@ form button:hover {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    /* Adjustments for player bio page */
+    .player-bio iframe {
+        width: 100%; 
+        max-width: 300px;
+        height: auto;
+    }
+
+    /*Add Player Button*/
+    button {
+        width: 100%;
+        padding: 12px 24px;
+        font-size: 8px;
+    }
+
     /* Footer */
     footer form {
         width: 90%;
