@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary-color: #0047AB;
     --secondary-color: #4095D1;
     --background-color: #DFEBF6;
@@ -12,8 +12,8 @@ body {
 
 #content {
     background: rgba(76, 124, 255, 0.7);
-    width:85%;
-    margin:auto;
+    width: 85%;
+    margin: auto;
     border-radius: 5px;
     padding: 5px;
     box-shadow: -10px -10px 10px 10px black;
@@ -26,11 +26,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     text-decoration: none;
-
 }
 
 .assignment-box, .assignment-box a {
-    background-color:rgba(223, 235, 246, 0.8);
+    background-color: rgba(223, 235, 246, 0.8);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -40,7 +39,7 @@ body {
     border: 3px solid black;
     text-decoration: none;
     color: black;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 .assignment-box a:hover, .assignment-box:hover {
@@ -62,11 +61,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     text-decoration: none;
-
 }
 
 .project-box, .project-box a {
-    background-color:rgba(223, 235, 246, 0.8);
+    background-color: rgba(223, 235, 246, 0.8);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -76,7 +74,7 @@ body {
     border: 3px solid black;
     text-decoration: none;
     color: black;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 .project-box a:hover, .project-box:hover {
@@ -92,6 +90,31 @@ body {
     height: auto;
 }
 
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.button1, .button2, .button3 {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: black;
+    background: var(--secondary-color);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+    background: linear-gradient(to bottom, #00FF00 0%, #006400 100%);
+    color: white;
+    border: 1px solid beige;
+}
+
 /* Media Query for smaller screens */
 @media (max-width: 768px) {
     .assignments {
@@ -102,6 +125,7 @@ body {
     .assignment-box {
         width: 100%;
     }
+
     .projects {
         flex-direction: column;
         align-items: center;
@@ -111,4 +135,3 @@ body {
         width: 100%;
     }
 }
-
